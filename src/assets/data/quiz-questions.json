@@ -1,0 +1,177 @@
+{
+  "quiz" : [
+    {
+      "id": 0,
+      "title":"Você seria um heroi ou vilão ?",
+      "questions":[
+        {
+          "id":1,
+          "question": "Qual super poder você escolheria ?",
+          "options":[
+            {"id": 1, "name":"Raios-Lasers", "alias":"A"},
+            {"id": 2, "name":"Voar", "alias":"B"},
+            {"id": 3, "name":"Explodir coisas", "alias":"A"},
+            {"id": 4, "name":"Curar feridas", "alias":"B"},
+            {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+          ]
+        },
+        {
+          "id":2,
+          "question": "Quem você salvaria primeiro ?",
+          "options":[
+            {"id": 1, "name":"Crianças", "alias":"A"},
+            {"id": 2, "name":"Idosos", "alias":"A"},
+            {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+          ]
+        },
+        {
+          "id":3,
+          "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+          "options":[
+            {"id": 1, "name":"Não destruir prédios", "alias":"B"},
+            {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
+            {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
+            {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+          ]
+        },
+        {
+          "id":4,
+          "question": "Qual o seu maior foco ?",
+          "options":[
+            {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
+            {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+          ]
+        },
+        {
+          "id":5,
+          "question": "Qual o seu apelido de super ser ?",
+          "options":[
+            {"id": 1, "name":"O Terrivel", "alias":"A"},
+            {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+          ]
+        }
+      ],
+      "results":{
+        "A": "Você muito provavelmente seria um super vilão!",
+        "B": "Você muito provavelmente seria um super Herói!"
+      }
+    }, {
+      "id": 1,
+      "title":"Quanto você sabe sobre Harry Potter",
+      "questions":[
+        {
+          "id":1,
+          "question": "De qual casa Harry pertence?",
+          "options":[
+            {"id": 1, "name":"Corvinal", "alias":"B"},
+            {"id": 2, "name":"Grifinória", "alias":"A"},
+            {"id": 3, "name":"Lufa-Lufa", "alias":"B"},
+            {"id": 4, "name":"Sonserina", "alias":"B"}
+          ]
+        },
+        {
+          "id":2,
+          "question": "Como Harry ganhou a cicatriz na sua testa?",
+          "options":[
+            {"id": 1, "name":"Ele se Arranhou", "alias":"B"},
+            {"id": 2, "name":"Voldemort tentou mata-lo, porém deixou apenas uma cicatriz", "alias":"A"},
+            {"id": 3, "name":"Ele caiu quando estava fugindo de Voldemort", "alias":"B"}
+          ]
+        },
+        {
+          "id":3,
+          "question": "Qual era o nome de Voldemort antes de ele se tornar o Lord das trevas?",
+          "options":[
+            {"id": 1, "name":"Tom Riddle", "alias":"A"},
+            {"id": 2, "name":"Severo Snape", "alias":"B"},
+            {"id": 3, "name":"Ele já se chamava Voldemort", "alias":"B"},
+            {"id": 4, "name":"Lord", "alias":"B"}
+          ]
+        },
+        {
+          "id":4,
+          "question": "Qual o nome do pai de Harry?",
+          "options":[
+            {"id": 1, "name":"Thiago", "alias":"A"},
+            {"id": 2, "name":"Sirius", "alias":"B"},
+            {"id": 3, "name":"Lupim", "alias":"B"},
+            {"id": 4, "name":"Tiago", "alias":"B"}
+          ]
+        },
+        {
+          "id":5,
+          "question": "Com quem Harry se casa no fim de tudo ?",
+          "options":[
+            {"id": 1, "name":"Hermione", "alias":"B"},
+            {"id": 2, "name":"Gina", "alias":"A"},
+            {"id": 3, "name":"Luna", "alias":"B"},
+            {"id": 4, "name":"Cho Chang", "alias":"B"}
+          ]
+        }
+      ],
+      "results":{
+        "A": "Você realmente sabe muito sobre Harry Potter!",
+        "B": "Você deveria ler/assistir Harry Potter de novo!"
+      }
+    }, {
+      "id": 2,
+      "title":"Quanto você sabe sobre One Piece",
+      "questions":[
+        {
+          "id":1,
+          "question": "Contra qual personagem o Luffy, até agora, usou o Tank Man?",
+          "options":[
+            {"id": 1, "name":"Cracker", "alias":"A"},
+            {"id": 2, "name":"Ivankov", "alias":"B"},
+            {"id": 3, "name":"Katakuri", "alias":"B"},
+            {"id": 4, "name":"Doflamingo", "alias":"B"}
+          ]
+        },
+        {
+          "id":2,
+          "question": "Quem é o braço direito do líder do exército revolucionário, Monkey D. Dragon?",
+          "options":[
+            {"id": 1, "name":"Kuma", "alias":"B"},
+            {"id": 2, "name":"Koala", "alias":"B"},
+            {"id": 3, "name":"Sabo", "alias":"A"},
+            {"id": 4, "name":"Karasu", "alias":"B"}
+          ]
+        },
+        {
+          "id":3,
+          "question": "Oque acontece quando o Magellan consome o próprio veneno?",
+          "options":[
+            {"id": 1, "name":"Ele não pode usar seus poderes por um certo tempo", "alias":"B"},
+            {"id": 2, "name":"Ele fica com Diarreia", "alias":"A"},
+            {"id": 3, "name":"Ele desmaia", "alias":"B"},
+            {"id": 4, "name":"Ele fica fraco", "alias":"B"}
+          ]
+        },
+        {
+          "id":4,
+          "question": "Qual foi a primeira vez que o Haoshoku Haki foi apresentado? [Haki do Rei/Conquistador]",
+          "options":[
+            {"id": 1, "name":"Quando Shanks espantou um Rei dos Mares para espantar Luffy", "alias":"A"},
+            {"id": 2, "name":"No Arquipélago de Sabaody", "alias":"B"},
+            {"id": 3, "name":"Em Marineford quando Luffy se sentiu pressionado", "alias":"B"},
+            {"id": 4, "name":"Em uma luta do Luffy vs Doflamingo", "alias":"B"}
+          ]
+        },
+        {
+          "id":5,
+          "question": "Qual é o nome da ilha aonde está o One Piece, a última ilha ?",
+          "options":[
+            {"id": 1, "name":"Laugh Tale", "alias":"A"},
+            {"id": 2, "name":"Gol Tale", "alias":"B"},
+            {"id": 3, "name":"Joy Island", "alias":"B"},
+            {"id": 4, "name":"Amazon Line", "alias":"B"}
+          ]
+        }
+      ],
+      "results":{
+        "A": "Você realmente sabe muito sobre One Piece!",
+        "B": "Você deveria ler/assistir One Piece de novo!!"
+      }
+    }
+  ]
+}

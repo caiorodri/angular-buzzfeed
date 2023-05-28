@@ -1,0 +1,136 @@
+.container-quiz{
+
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.quiz-logo {
+
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+
+}
+
+.quiz-logo > img {
+
+    max-width: 50%;
+    margin-bottom: 1rem;
+
+}
+
+.quiz-logo > h2 {
+
+    font-size: 2rem;
+    font-family: monospace;
+    color: #8b8b8b;
+
+}
+
+.quiz-questions {
+
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4424d9;
+    border-radius: 10px;
+    background-color: #644ED2;
+    padding: 2rem 2rem;
+    text-align: center;
+
+}
+
+.quiz-options {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto 0 auto;
+    width: 80%;
+    gap: 5px;
+
+}
+
+.btn-option {
+
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #18ab29;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1.2rem 2rem;
+
+}
+
+.btn-option:hover {
+    background-color: #18ab29;
+}
+
+.btn-option:active{
+
+    position: relative;
+    top: 2px;
+    background-color: #fff;
+    color: #18ab29;
+}
+
+.quiz-result {
+
+    width: 80%;
+    background-color: #210239;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.quiz-result > p {
+
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #8b8b8b2c;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+
+.btn-back {
+
+    background-color: transparent;
+    border: 1px solid #18ab29;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 1.2rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.btn-back:hover {
+    background-color: #18ab29;
+}
+
+.btn-back:active{
+
+    position: relative;
+    top: 2px;
+    background-color: #fff;
+    color: #18ab29;
+}

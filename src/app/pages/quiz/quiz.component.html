@@ -1,0 +1,32 @@
+<div class="container-quiz">
+
+    <div class="quiz-logo">
+
+        <a routerLink="/">
+            <img src="{{ image }}" alt="">
+        </a>
+        <h2>{{ title }}</h2>
+    </div>
+
+    <div *ngIf="!finished" class="quiz-questions">
+        <h1>{{ questionSelected.question }}</h1>
+    </div>
+
+    <div *ngIf="!finished" class="quiz-options">
+        <button
+        *ngFor="let option of questions[questionIndex].options"
+        class="btn-option"
+        (click)="userChoose(option.alias)"
+        >{{ option.name }}</button>
+
+    </div>
+    
+    <div *ngIf="finished" class="quiz-result">
+        <h1>O resultado é: </h1>
+        <p>{{ result }}</p>
+    </div>
+    <div *ngIf="finished" class="container-back">
+        <button class="btn-back" (click)="restart()">Voltar</button>
+    </div>
+
+</div>

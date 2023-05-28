@@ -1,0 +1,29 @@
+.quiz-card-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3a3a3a5e;
+
+}
+
+.quiz-card-container:hover {
+
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+.quiz-card-container > a > img{
+
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.quiz-card-container > a > h2 {
+
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+
+}
